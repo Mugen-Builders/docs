@@ -58,7 +58,7 @@ const config = {
   title: "Cartesi Documentation",
   tagline: "Application-specific rollups with a Linux runtime.",
   url: isStaging ? "https://staging.mugen.builders" : "https://docs.cartesi.io",
-  deploymentBranch: isStaging ? "staging" : "main",
+  deploymentBranch: isStaging ? "Staging" : "main",
   baseUrl: "/",
   trailingSlash: true,
   onBrokenLinks: "ignore",
