@@ -52,11 +52,13 @@ const openApiDocsConfig = versions.reduce((config, version) => {
   return config;
 }, {});
 
+const isStaging = process.env.DEPLOYMENT_BRANCH === "Staging";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Cartesi Documentation",
   tagline: "Application-specific rollups with a Linux runtime.",
-  url: "https://docs.cartesi.io",
+  url: isStaging ? "https://staging.mugen.builders" : "https://docs.cartesi.io",
+  deploymentBranch: isStaging ? "staging" : "main",
   baseUrl: "/",
   trailingSlash: true,
   onBrokenLinks: "ignore",

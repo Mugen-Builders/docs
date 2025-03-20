@@ -1,3 +1,9 @@
+# READ-ONLY Repo for Staging Purposes
+
+You PRs on the original repo "Staging" branch should be synced to this repo's staging to deploy to staging docs under https://staging.mugen.builders
+
+-----------
+
 # Cartesi Documentation
 
 Welcome to the official Cartesi documentation repository. This documentation is built using [Docusaurus 2.4.3](https://docusaurus.io/).
