@@ -32,4 +32,4 @@ jobs:
           GIT_USER="${{ secrets.GITHUB_TOKEN }}" npm run deploy
         env:
           GIT_USER: ${{ secrets.GITHUB_TOKEN }}
-          DEPLOYMENT_BRANCH: staging
+          DEPLOYMENT_BRANCH: Staging
